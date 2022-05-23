@@ -278,13 +278,8 @@ enctype="multipart/form-data">
 Buat file baru dengan nama **ubah.php**
 ![ubah-barang](img/ubah.png)
 
-**PENJELASAN**
-
-Mengubah isi dari data barang menjadi data barang baru seperti contoh gambar di atas.
-![fulltampilan](img/fulll-tampilan.png)
-
 maka hasilnya akan seperti dibawah
-![hasil-ubah](img/hasil-ubah.png)
+![hasil-ubah](img/hasil_ubah.png)
 di atas adalah hasil dari program ubah atau ***update***
 
 **code php**

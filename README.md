@@ -91,21 +91,26 @@ if ($conn == false)
 ```
 
 ## 6). MEMBUAT FILE INDEX UNTUK MENAMPILKAN DATA (***READ***)
-
 Buat file baru dengan nama **index.php**
+
 ![hasil-index](img/index.png)
 
 **PENJELASAN**
 
-Hasil pada menu **index.php** atau program menampilkan data.
+Tampilan dan hasil pada menu **index.php** atau program menampilkan data.
+
+![full_screen](img/fullindex.png)
+Tampilan full **index layout** untuk menampilkan data
 
 **code php**
 ```php
 <?php
 include("koneksi.php");
+
 // query untuk menampilkan data
 $sql = 'SELECT * FROM data_barang';
 $result = mysqli_query($conn, $sql);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -181,19 +186,22 @@ th, td{
 ```
 
 ## 7). MENAMBAHKAN DATA(***CREATE***)
-
 Buat file baru dengan nama **tambah.php**
+
 ![Create/Menambahkan-data](img/tambah.png)
 
 **PENJELASAN**
 
 Program menambahkan data atau ***Create***
 
+![create](img/fulltambah.png)
+
 **code php**
 ```php
 <?php
 error_reporting(E_ALL);
 include_once 'koneksi.php';
+
 if (isset($_POST['submit']))
 {
     $nama = $_POST['nama'];
@@ -277,11 +285,7 @@ enctype="multipart/form-data">
 
 Buat file baru dengan nama **ubah.php**
 
-![ubah-barang](img/ubah.png)
-
-maka hasilnya akan seperti dibawah
-![hasil-ubah](img/hasil_ubah.png)
-di atas adalah hasil dari program ubah atau ***update***
+![ubah-barang](img/)
 
 **code php**
 ```php
@@ -397,7 +401,7 @@ Buat file baru dengan nama **hapus.php**
 
 **PENJELASAN**
 
-Jika ingin menghapus atau **delete** klik saja **hapus** maka akan terhapus secara otomatis oleh program, dan jika ingin kembali menambahkan klik **Tambang Barang** kemudian masukan inputan nya.
+Jika ingin menghapus atau **delete** klik saja **hapus** maka akan terhapus secara otomatis oleh program, dan jika ingin kembali menambahkan klik **Tambang Barang** kemudian masukan inputannya.
 
 **code php**
 ```php

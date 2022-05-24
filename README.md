@@ -99,7 +99,7 @@ Buat file baru dengan nama **index.php**
 
 Tampilan dan hasil pada menu **index.php** atau program menampilkan data.
 
-![full_screen](img/fullindex.png)
+![full_screen](img/full_index.png)
 Tampilan full **index layout** untuk menampilkan data
 
 **code php**
@@ -285,7 +285,7 @@ enctype="multipart/form-data">
 
 Buat file baru dengan nama **ubah.php**
 
-![ubah-barang](img/)
+![ubah-barang](img/ubah.png)
 
 **code php**
 ```php

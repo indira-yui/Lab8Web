@@ -1,18 +1,22 @@
-body {
+body{
     background-color: whitesmoke;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 15px;
-    color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
 table{
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 th{
-    background-color: #e348c1;
+    background-color: aqua;
 }
-th, td{
+th,td{
     border: 1px solid black;
-    font-size: 16px;
-    padding: 7px 9px;
+}
+
+.input{
+    padding: 5px;
+}
+.input label{
+    display: inline-block;
+    width: 100px;
 }
